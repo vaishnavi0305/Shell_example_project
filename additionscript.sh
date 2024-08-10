@@ -9,8 +9,12 @@ set -x
 #addittion of 2 numbers script
 #############
 
-n=4
-m=5
-a=$((n + m))
-echo "addition of $n + $m is $a"
+echo -n "Enter first number: "
+read num1
+
+echo -n "Enter 2nd number: "
+read num2
+
+sum=$((num1 + num2))
+echo "addition of $num1 + $num2 is $sum"
 
